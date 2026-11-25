@@ -1,0 +1,18 @@
+[project]
+name = "gapcheck"
+version = "0.1.0"
+description = "Estimate the lag between two groups of models on one benchmark (demo)"
+requires-python = ">=3.10"
+
+[project.scripts]
+gapcheck = "gapcheck.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

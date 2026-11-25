@@ -1,0 +1,19 @@
+# EXAMPLE DATA, INVENTED. Not real benchmark results.
+model,group,date,score
+closed-model-1,closed,2022-12-25,0.318
+closed-model-2,closed,2023-03-28,0.377
+closed-model-3,closed,2023-07-25,0.407
+closed-model-4,closed,2023-11-03,0.475
+closed-model-5,closed,2024-01-27,0.506
+closed-model-6,closed,2024-05-11,0.576
+closed-model-7,closed,2024-09-02,0.64
+closed-model-8,closed,2024-12-06,0.675
+open-model-1,open,2023-04-25,0.154
+open-model-2,open,2023-07-27,0.174
+open-model-3,open,2023-11-28,0.313
+open-model-4,open,2024-02-13,0.331
+open-model-5,open,2024-05-20,0.396
+open-model-6,open,2024-09-24,0.478
+open-model-7,open,2024-12-12,0.484
+open-model-8,open,2025-04-01,0.57
+open-model-9,open,2025-07-18,0.667
